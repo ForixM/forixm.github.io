@@ -1,0 +1,83 @@
+section > * { margin-left: 0 }
+
+.container-flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 56px;
+    column-gap: 32px;
+}
+
+@media(max-width: 767px) {
+    .bono, .edge, .adam, .larry {
+        width: 100%;
+    }
+}
+@media(min-width: 768px){
+    .bono, .edge, .adam, .larry {
+        width: 22%;
+    }
+}
+
+.bono, .edge, .adam, .larry {
+    padding: 20px;
+    margin-bottom: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.bono p, .edge p, .adam p, .larry p {
+    flex-grow: 1;
+}
+
+.bono img, .edge img, .adam img, .larry img {
+    width: calc(100% + 40px);
+    margin-bottom: 16px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Headings */
+.bono h3, .edge h3, .adam h3, .larry h3 {
+    font-size: var(--font-size-md);
+	line-height: 1.2;
+    margin-bottom: 2px;
+}
+
+/* Paragraphs of text */
+.bono p, .edge p, .adam p, .larry p {
+    font-size: var(--font-size-base);
+    line-height: 1.7
+}
+
+.bono { background-color: #4081ec }
+.edge { background-color: #ffbb33 }
+.adam { background-color: #f73345 }
+.larry { background-color: #e0e0e0 }
+
+.bono h3, .bono p,
+.adam h3, .adam p { color: #fff }
+
+.edge h3, .edge p { color: #000 }
+.larry h3, .larry p { color: #000 }
+
+button {
+    margin-top: 32px;
+    padding: 8px 16px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: darkblue;
+    transform: shadow(0 10px 10px #000);
+}
+
+button:active{
+    background-color: #000;
+}
