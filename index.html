@@ -35,7 +35,7 @@
         
             <ul class="links-wrapper">
                 <li><a href="#">Home</a></li>
-                <li><a href="./portfolio/">Portfolio</a></li>
+                <li><a href="./portfolio/">Web Designs</a></li>
                 <li><a href="./portfolio/js/">JavaScript</a></li>
                 <li><a class="btn btn-solid" id="btn-cta" href="./contact/"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
             </ul>
@@ -83,9 +83,9 @@
 		</div>
 
 		<!-- Begin three-column flexbox grid -->
-		<div class="flex-cols-3">
+		<div class="flex-cols-4 mobile-col-2 cols-gap-4">
 
-			<div class="col-3">
+			<div class="col-4">
 				<figure class="photos-zoom photos-brightness">
 					<a href="./portfolio/smoothies/"><img src="./assets/img/project-smoothie.jpg" alt="Mehdi El Alaoui, web designer"></a>
 				</figure>
@@ -94,7 +94,7 @@
 				<a href="./portfolio/smoothies/" class="btn btn-solid"><span>View Project</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
-			<div class="col-3">
+			<div class="col-4">
 				<figure class="photos-zoom photos-brightness">
 					<a href="./portfolio/fashion/"><img src="./assets/img/project-fashion.jpg" alt="Mehdi El Alaoui, web designer"></a>
 				</figure>
@@ -103,13 +103,22 @@
 				<a href="./portfolio/fashion/" class="btn btn-solid"><span>View Project</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
-			<div class="col-3">
-				<figure class="photos-zoom photos-brightness">
-					<a href="./portfolio/project-hero/"><img src="./assets/img/project-hero.png" alt="Mehdi El Alaoui, web designer"></a>
+			<div class="col-4">
+				<figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+					<a href="portfolio/js/movies/index.html"><img src="assets/img/project-movies.png" alt="Movies database JavaScript project"></a>
 				</figure>
-				<h3>Hero Block Gallery</h3>
-				<p>A gallery of hero block elements with split-screen layouts and duotone images.</p>
-				<a href="./portfolio/project-hero/" class="btn btn-solid"><span>Learn more</span><i class="fas fa-arrow-right"></i></a>
+				<h3>Movies database</h3>
+				<p>Retrieves a searchable list of movie titles and images from the Internet Movie Database.</p>
+				<a href="portfolio/js/movies/index.html" class="btn btn-solid btn-small"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+			</div>
+
+			<div class="col-4">
+				<figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+					<a href="portfolio/js/weather/index.html"><img src="assets/img/project-weather.jpg" alt="Opern Weather API JavaScript project"></a>
+				</figure>
+				<h3>Dublin city weather</h3>
+				<p>Displays the real-time weather in Dublin city using the Open Weather API.</p>
+				<a href="portfolio/js/weather/index.html" class="btn btn-solid btn-small"><span>View project</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
 
@@ -123,7 +132,28 @@
     </main>
 
     <!-- footer -->
-    <footer></footer>
+    <footer class="theme-dark text-center-desktop text-center-mobile">
+
+		<h2>Mehdi El Alaoui</h2>
+
+		<h3>Front-end designer and developer</h3>
+
+		<ul class="footer-links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="portfolio/index.html">Web Designs</a></li>
+			<li><a href="portfolio/js/index.html">JavaScript</a></li>
+			<li><a href="store/index.html">Store</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
+		</ul>
+
+		<ul class="footer-icons">
+			<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="https://github.com/ForixM" target="_blank"><i class="fab fa-github-square"></i></a></li>
+		</ul>
+
+		<p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
+
+	</footer>
 
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 
