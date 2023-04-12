@@ -1,13 +1,12 @@
 /* Add your custom CSS here */
 
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
-nav.theme-light,
-nav.theme-light ul.links-wrapper.active { background-color: var(--red-700) }
-nav.theme-light,
-nav.theme-light ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-light, nav.theme-light ul.links-wrapper.active {
+    background-color: var(--trans-000);
+}
+
 nav.theme-light.menu-sticky.menu-on-scroll,
-nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--slate-200) }
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--amber-200) }
+
 nav.theme-light a#btn-cta:link,
 nav.theme-light a#btn-cta:visited { color: var(--white-000) }
 nav.theme-light a#btn-cta:focus,
@@ -19,5 +18,8 @@ nav.theme-light ul.links-wrapper li a:visited { color: var(--white-000) }
 
 
 header.theme-light { background-color: var(--trend-050) }
-nav.theme-light,
-nav.theme-light ul.links-wrapper.active { background-color: var(--black-000) }
+
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:link,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:visited {
+    color: var(--black-000);
+}
