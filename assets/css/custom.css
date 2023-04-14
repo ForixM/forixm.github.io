@@ -23,3 +23,8 @@ nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:link,
 nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:visited {
     color: var(--black-000);
 }
+
+.website-logo{
+    height: 60px;
+    margin-top: -10px;
+}
